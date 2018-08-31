@@ -13,6 +13,8 @@
 		6A85680D2139706E00E8E4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A85680C2139706E00E8E4F1 /* Assets.xcassets */; };
 		6A8568102139706E00E8E4F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A85680E2139706E00E8E4F1 /* LaunchScreen.storyboard */; };
 		6A85681B2139706E00E8E4F1 /* SkeletonViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A85681A2139706E00E8E4F1 /* SkeletonViewTests.swift */; };
+		845628515D49B5F1D8FCB957 /* Pods_SkeletonView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EC1D408D8CA1F6266D4062 /* Pods_SkeletonView.framework */; };
+		BCC08F4A1F80FB068DF6EB1F /* Pods_SkeletonViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1DB38723777B21F1E3229A3 /* Pods_SkeletonViewTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AF0A8241E809C5646E56218 /* Pods-SkeletonView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonView/Pods-SkeletonView.debug.xcconfig"; sourceTree = "<group>"; };
 		6A8568022139706C00E8E4F1 /* SkeletonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkeletonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A8568052139706C00E8E4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A8568072139706C00E8E4F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +39,11 @@
 		6A8568162139706E00E8E4F1 /* SkeletonViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkeletonViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A85681A2139706E00E8E4F1 /* SkeletonViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonViewTests.swift; sourceTree = "<group>"; };
 		6A85681C2139706E00E8E4F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2EC1D408D8CA1F6266D4062 /* Pods_SkeletonView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0C435CF9D2141D7C1D4CCA /* Pods-SkeletonView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonView/Pods-SkeletonView.release.xcconfig"; sourceTree = "<group>"; };
+		CC877B0C6D0D6F423B594D08 /* Pods-SkeletonViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonViewTests/Pods-SkeletonViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		D1DB38723777B21F1E3229A3 /* Pods_SkeletonViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SkeletonViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB74AD207FB7108B0308E2DE /* Pods-SkeletonViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SkeletonViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SkeletonViewTests/Pods-SkeletonViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845628515D49B5F1D8FCB957 /* Pods_SkeletonView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCC08F4A1F80FB068DF6EB1F /* Pods_SkeletonViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60A7F3703617D31A83CAE3EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AF0A8241E809C5646E56218 /* Pods-SkeletonView.debug.xcconfig */,
+				CC0C435CF9D2141D7C1D4CCA /* Pods-SkeletonView.release.xcconfig */,
+				EB74AD207FB7108B0308E2DE /* Pods-SkeletonViewTests.debug.xcconfig */,
+				CC877B0C6D0D6F423B594D08 /* Pods-SkeletonViewTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6A8567F92139706C00E8E4F1 = {
 			isa = PBXGroup;
 			children = (
 				6A8568042139706C00E8E4F1 /* SkeletonView */,
 				6A8568192139706E00E8E4F1 /* SkeletonViewTests */,
 				6A8568032139706C00E8E4F1 /* Products */,
+				60A7F3703617D31A83CAE3EB /* Pods */,
+				B14F9097D5B94812E8E7FE46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +127,15 @@
 			name = Supports;
 			sourceTree = "<group>";
 		};
+		B14F9097D5B94812E8E7FE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2EC1D408D8CA1F6266D4062 /* Pods_SkeletonView.framework */,
+				D1DB38723777B21F1E3229A3 /* Pods_SkeletonViewTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -111,9 +143,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A85681F2139706E00E8E4F1 /* Build configuration list for PBXNativeTarget "SkeletonView" */;
 			buildPhases = (
+				CB961A291ADE1235BD21B176 /* [CP] Check Pods Manifest.lock */,
 				6A8567FE2139706C00E8E4F1 /* Sources */,
 				6A8567FF2139706C00E8E4F1 /* Frameworks */,
 				6A8568002139706C00E8E4F1 /* Resources */,
+				590130AF3B8C4647B7A4A9B3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A8568222139706E00E8E4F1 /* Build configuration list for PBXNativeTarget "SkeletonViewTests" */;
 			buildPhases = (
+				4DB60124BC5CB2C08FF0AADF /* [CP] Check Pods Manifest.lock */,
 				6A8568122139706E00E8E4F1 /* Sources */,
 				6A8568132139706E00E8E4F1 /* Frameworks */,
 				6A8568142139706E00E8E4F1 /* Resources */,
@@ -199,6 +234,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DB60124BC5CB2C08FF0AADF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkeletonViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		590130AF3B8C4647B7A4A9B3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SkeletonView/Pods-SkeletonView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SkeletonView/Pods-SkeletonView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB961A291ADE1235BD21B176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SkeletonView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A8567FE2139706C00E8E4F1 /* Sources */ = {
@@ -364,15 +456,13 @@
 		};
 		6A8568202139706E00E8E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AF0A8241E809C5646E56218 /* Pods-SkeletonView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X9D2W8KH;
 				INFOPLIST_FILE = SkeletonView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wk.SkeletonView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -382,15 +472,13 @@
 		};
 		6A8568212139706E00E8E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0C435CF9D2141D7C1D4CCA /* Pods-SkeletonView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X9D2W8KH;
 				INFOPLIST_FILE = SkeletonView/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wk.SkeletonView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -400,17 +488,14 @@
 		};
 		6A8568232139706E00E8E4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB74AD207FB7108B0308E2DE /* Pods-SkeletonViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X9D2W8KH;
 				INFOPLIST_FILE = SkeletonViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wk.SkeletonViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -421,17 +506,14 @@
 		};
 		6A8568242139706E00E8E4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC877B0C6D0D6F423B594D08 /* Pods-SkeletonViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 49X9D2W8KH;
 				INFOPLIST_FILE = SkeletonViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wk.SkeletonViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
