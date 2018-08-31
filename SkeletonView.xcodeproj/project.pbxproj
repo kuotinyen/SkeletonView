@@ -79,10 +79,7 @@
 			children = (
 				6A8568052139706C00E8E4F1 /* AppDelegate.swift */,
 				6A8568072139706C00E8E4F1 /* ViewController.swift */,
-				6A8568092139706C00E8E4F1 /* Main.storyboard */,
-				6A85680C2139706E00E8E4F1 /* Assets.xcassets */,
-				6A85680E2139706E00E8E4F1 /* LaunchScreen.storyboard */,
-				6A8568112139706E00E8E4F1 /* Info.plist */,
+				6A856825213970E100E8E4F1 /* Supports */,
 			);
 			path = SkeletonView;
 			sourceTree = "<group>";
@@ -94,6 +91,17 @@
 				6A85681C2139706E00E8E4F1 /* Info.plist */,
 			);
 			path = SkeletonViewTests;
+			sourceTree = "<group>";
+		};
+		6A856825213970E100E8E4F1 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				6A8568092139706C00E8E4F1 /* Main.storyboard */,
+				6A85680C2139706E00E8E4F1 /* Assets.xcassets */,
+				6A85680E2139706E00E8E4F1 /* LaunchScreen.storyboard */,
+				6A8568112139706E00E8E4F1 /* Info.plist */,
+			);
+			name = Supports;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
